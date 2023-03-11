@@ -8,7 +8,7 @@ COPY . /app
 
 # Install the application dependencies
 RUN npm install
-#build
+
 # Build the React application
 RUN npm run build
 
