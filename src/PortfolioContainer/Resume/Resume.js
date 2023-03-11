@@ -59,13 +59,20 @@ const Resume = (props) => {
   
 
   const projectsDetails = [
+    //   {
+    //     title: "Booking Application",
+    //     link: <a href="https://github.com/bhaveshdarak/BDbooking" target="_blank"> <i class="fa-brands fa-square-github"></i></a>,
+    //     // duration: { fromDate: "April 2021", toDate: "June 2021" },
+    //     subHeading: "Techologies Used: React.js",
+    //     description: "Website that bookes the near by best hotel for you"
+
+    // },
       {
-        title: "Booking Application",
-        link: <a href="https://github.com/bhaveshdarak/BDbooking" target="_blank"> <i class="fa-brands fa-square-github"></i></a>,
+        title: "Crypto Rank",
+        link: <a href="https://github.com/bhaveshdarak/Cryprorank" target="_blank"> <i class="fa-brands fa-square-github"></i></a>,
         // duration: { fromDate: "April 2021", toDate: "June 2021" },
         subHeading: "Techologies Used: React.js",
-        description: "Website that bookes the near by best hotel for you"
-
+        description: "Website that is used to see crypto rank"
     },
     {
         title: "Gym Workout",
