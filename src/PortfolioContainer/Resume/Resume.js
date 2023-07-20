@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -69,14 +69,14 @@ const Resume = (props) => {
     // },
       {
         title: "Crypto Rank",
-        link: <a href="https://github.com/bhaveshdarak/Cryprorank" target="_blank"> <i class="fa-brands fa-square-github"></i></a>,
+        link: <a href="https://github.com/bhaveshdarak/Cryprorank" target="_blank" rel="noreferrer"> <i class="fa-brands fa-square-github"></i></a>,
         // duration: { fromDate: "April 2021", toDate: "June 2021" },
         subHeading: "Techologies Used: React.js",
         description: "Website that is used to see crypto rank"
     },
     {
         title: "Gym Workout",
-        link: <a href="https://github.com/bhaveshdarak/gym" target="_blank"> <i class="fa-brands fa-square-github" ></i></a>,
+        link: <a href="https://github.com/bhaveshdarak/gym" target="_blank" rel="noreferrer"> <i class="fa-brands fa-square-github" ></i></a>,
         // duration: { fromDate: "April 2021", toDate: "June 2021" },
         subHeading: "Techologies Used: React.js,Rapid API",
         description: "Gym Website that gives the idea about exercise"
@@ -84,7 +84,7 @@ const Resume = (props) => {
     },
     {
         title: "E-commerce Website",
-        link: <a href="https://github.com/bhaveshdarak/E-commerce-Website" target="_blank"> <i class="fa-brands fa-square-github"></i></a>,
+        link: <a href="https://github.com/bhaveshdarak/E-commerce-Website" target="_blank" rel="noreferrer"> <i class="fa-brands fa-square-github"></i></a>,
         // duration: { fromDate: "April 2021", toDate: "June 2021" },
         subHeading: "Techologies Used: HTML,CSS",
         description: "Shopping website"

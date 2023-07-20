@@ -10,8 +10,8 @@ export default function AboutMe(props) {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  // const fadeInSubscription =
+  //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTSANTS = {
     description:"I have Knee interest in Web development. Making new product that require innovation and skills motivate me to further enhance myself. I understand the need for planning and analyzing my approach so that I can code better and faster.I known various skills such as HTML,CSS,JavaScript and React.js and I am also a good learner towards a new skills to learn.Also, I am a team player. I like working and interacting with other people.",

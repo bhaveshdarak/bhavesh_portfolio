@@ -9,13 +9,13 @@ export default function Header() {
     const [selectedScreen, setSelectedScreen] = useState(0);
     const [showHeaderOptions, setShowHeaderOptions] = useState(false);
 
-    const updateCurrentScreen = (currentScreen) => {
-        if(!currentScreen || !currentScreen.screenInView) return;
+    // const updateCurrentScreen = (currentScreen) => {
+    //     if(!currentScreen || !currentScreen.screenInView) return;
 
-        let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
-        if(screenIndex < 0) return;
-    };
-    let currentScreenSubscription = ScrollService.currentScreenBroadcaster.subscribe(updateCurrentScreen);
+    //     let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
+    //     if(screenIndex < 0) return;
+    // };
+    // let currentScreenSubscription = ScrollService.currentScreenBroadcaster.subscribe(updateCurrentScreen);
 
     const getHeaderOptions = ()=>{
         return TOTAL_SCREENS.map((Screen, i)=>(
