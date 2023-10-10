@@ -47,7 +47,7 @@ export default function Profile() {
                     {/* <button className="btn primary-btn"
                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
                     > Let's Discuss! </button> */}
-                        <a href='Bhavesh Ritesh Darak_Resume.pdf' download='Bhavesh Darak Resume.pdf'>
+                         <a href="Bhavesh Darak_Resume_9.pdf" download="Bhavesh Darak Resume.pdf">
                             <button className="btn highlighted-btn">Get Portfolio</button>
                         </a>
                     </div>

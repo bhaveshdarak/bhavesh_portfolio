@@ -19,9 +19,11 @@ export default function AboutMe(props) {
       bullets: [
         "JavaScript",
         "HTML,CSS",
-        "Interactive Front End as per the design",
         "React",
-        "Building API",
+        "C++",
+        "NodeJs",
+        "ExpressJs",
+        "SQL",
         
 
       ],
@@ -58,11 +60,11 @@ export default function AboutMe(props) {
               </div>
               {renderHighlight()}
             </div>
-            <div className="about-me-options ">
-            <button className="btn primary-btn"
+            <div className="about-me-options">
+            {/* <button className="btn primary-btn"
                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                    > Let's Discuss! </button>
-              <a href="My_CV_2_0.pdf" download="My Portfolio.pdf">
+                    > Let's Discuss! </button> */}
+              <a href="Bhavesh Darak_Resume_9.pdf" download="Bhavesh Darak Resume.pdf">
                 <button className="btn highlighted-btn ">Get Portfolio</button>
               </a>
             </div>
